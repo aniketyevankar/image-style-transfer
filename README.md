@@ -25,8 +25,8 @@ A simple Streamlit app template for you to modify!
 
 ### Flow
 ```mermaid
-graph TD
-    A((Straemlit App Start)) --> B{Upload Image Option}
+graph LR
+    A((Streamlit App Start)) --> B{Upload Image Option}
     B --> C{Define Style Images}
     C --> D{Load Uploaded Image}
     D --> E{Check if Image and Style are Selected}
