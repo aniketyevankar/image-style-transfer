@@ -1,4 +1,4 @@
-# 🎈 Blank app template
+# 🎈 Image Style Transfer
 
 A simple Streamlit app template for you to modify!
 
@@ -6,14 +6,31 @@ A simple Streamlit app template for you to modify!
 
 ### How to run it on your own machine
 
-1. Install the requirements
+1. Download the repository
+   ```
+   $ git clone https://github.com/aniketyevankar/image-style-transfer.git
+   ```
+
+2. Install the requirements
 
    ```
    $ pip install -r requirements.txt
    ```
 
-2. Run the app
+3. Run the app
 
    ```
    $ streamlit run streamlit_app.py
    ```
+
+### Flow
+```mermaid
+graph TD
+    A((Straemlit App Start)) --> B{Upload Image Option}
+    B --> C{Define Style Images}
+    C --> D{Load Uploaded Image}
+    D --> E{Check if Image and Style are Selected}
+    E -- Yes --> F{Apply Style Transfer}
+    E -- No --> N((End Flow))
+    F --> N((End Flow))
+```
