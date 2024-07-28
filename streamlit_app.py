@@ -35,6 +35,8 @@ style_images = {
     "Van Gogh - Starry Night": "van_gogh_starry_night.jpg",
     "Van Gogh - Almond Blossoms": "van_gogh_almond_blossoms.jpg",
     "Van Gogh - Irises": "van_gogh_irises.jpg",
+    "Van Gogh - Wheat Field with Cypresses": "Wheat_Field_with_Cypresses.jpg",
+    "Van Gogh - Wheatfield with Crows.jpg": "Wheatfield_with_Crows.jpg"
 }
 
 # Streamlit app
